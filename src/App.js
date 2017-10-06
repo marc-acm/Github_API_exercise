@@ -17,7 +17,7 @@ class App extends Component {
     console.log(player_number)
 
     var username;
-
+    // to point directly to specific player and not enter the same username.
     if (player_number == 1) {
       username = this.player1Input.value
     } else {

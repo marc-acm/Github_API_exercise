@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 class Judging extends Component {
 	render() {
+
+		//check if object is empty , if its empty that means that players hasnt been entered.
 		var isPlayer1Ready = !!Object.keys(this.props.player1).length;
 		var isPlayer2Ready = !!Object.keys(this.props.player2).length;
 		var playersReady = isPlayer1Ready && isPlayer2Ready
